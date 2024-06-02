@@ -1,0 +1,8 @@
+// components/Root.tsx
+export default function Root() {
+    return (<h1>I'm root
+      <Outlet />
+    </h1>
+    );
+  }
+  
