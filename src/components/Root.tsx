@@ -1,8 +1,12 @@
 // components/Root.tsx
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+
 export default function Root() {
-    return (<h1>I'm root
+  return (
+    <div>
+      <h1>I'm root</h1>
       <Outlet />
-    </h1>
-    );
-  }
-  
+    </div>
+  );
+}
